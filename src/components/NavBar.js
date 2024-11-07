@@ -5,7 +5,12 @@ import linkedinIcon from "../assets/img/linkedin.svg";
 
 export const NavBar = () => {
   return (
-    <Navbar bg="dark" expand="lg" className="bg-body-tertiary">
+    <Navbar
+      bg="dark"
+      data-bs-theme="dark"
+      expand="lg"
+      className="bg-body-tertiary"
+    >
       <Container>
         <Navbar.Brand as={Link} to="/">
           My Portfolio
