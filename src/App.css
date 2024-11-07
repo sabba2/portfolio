@@ -36,3 +36,16 @@
     transform: rotate(360deg);
   }
 }
+
+/* === NavBar Styles === */
+
+.navbar-logo {
+  max-width: 50px;
+  height: auto;
+  margin-right: 20px;
+}
+
+#github-logo {
+  max-width: 45px;
+  height: auto;
+}
